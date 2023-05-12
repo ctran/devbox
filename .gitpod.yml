@@ -1,0 +1,5 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: direnv allow
+    command: echo go run .
